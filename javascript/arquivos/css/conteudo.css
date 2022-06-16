@@ -1,0 +1,130 @@
+/*esquema*****************************************/
+header{
+    position: fixed;
+    max-width: 100vw; max-height: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--corClara);
+    border-bottom: 1px solid rgba(54,54,54,0.02);
+    
+    grid-area: cabecalho;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+	background: linear-gradient(-45deg, rgba(252,70,107,0.6), rgba(63,94,251,0.6));
+	background-size: 400% 400%;
+	animation: xGradiente 15s ease infinite;
+
+    color: var(--corClara);
+    text-transform: uppercase;
+    padding: var(--tamanhoMinG);
+    font-size: var(--tamanhoTexto);
+    
+    grid-area: rodape;
+}
+
+/*conjuntos*/
+header#inicio{
+    text-transform: lowercase;
+}
+
+header ul li{
+    display: inline; 
+    list-style:none;
+}
+
+header ul li a{ 
+    color: var(--corTexto);
+    padding: 0 8px;
+}
+
+section#inicio{
+    background: url('https://static.vecteezy.com/ti/vetor-gratis/t2/536629-de-fundo-de-padrao-de-papel-de-grade-vetor.jpg');
+	animation: xGradiente 15s ease infinite;
+    background-size: contain;
+}
+
+section div#inicio {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1.6fr 1fr 0.4fr;
+    grid-template-rows: 1.6fr 1fr 0.4fr;
+    grid-template-areas:
+        "cabecalho cabecalho cabecalho"
+        "esquerda centro direita"
+        "rodape rodape rodape";
+    font-size: var(--tamanhoTexto);
+    align-items: center;
+
+    width: 95vw; height: 80vh;
+    margin: 3.5rem 0 0 0;
+    background: rgba( 255, 255, 255, 0.3 );
+    box-shadow: 3px 3px 3px var(--sombra);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 8px;
+    border: 1px solid rgba( 255, 255, 255, 1 );
+    text-transform: lowercase;
+}
+
+#esquerda {
+    grid-area: esquerda;
+    margin: 0; padding: 4.5rem;
+}
+
+#esquerda h1 {
+    font-size: 4rem;
+    margin: 0; padding: 0;
+}
+
+#esquerda h3{
+    font-size: 2rem;
+}
+
+#esquerda h4{
+    font-size: 1.5rem;
+}
+
+#centro {
+    grid-area: centro;
+}
+
+#direita {
+    grid-area: direita;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+#direita li{
+    padding: 8px 0;
+}
+
+/*faixa etária*/
+#dados{
+    justify-content: flex-start !important;
+    padding: 24px;
+    background: var(--fundoTransparente);
+    border-radius: 16px 0 16px 0;
+    box-shadow: 3px 3px 3px var(--sombra);
+}
+
+div#um,div#res{
+    padding: 4px;
+}
+
+#res{
+    font-size: 12px;
+}

@@ -1,0 +1,119 @@
+/*referência*/
+/*ícones*/
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css');
+
+/*tipografia*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'idroid';
+    src: url('../fontes/idroid.otf');
+}
+
+/*id visual*/
+:root{
+    /*paleta de cores*/
+    --corPrimaria:#3ddc84;
+    --corSecundaira:#0f3f75;
+
+    --lightTotal:#ffffff;
+    --lightClaro:#ececec;
+    --lightMedio:#b9b9b9;
+    --lightEscuro:#7c7c7c;
+
+    --darkClaro:#323232;
+    --darkMedio:#202020;
+    --darkEscuro:#181818;
+    --darkTotal:#000000;
+
+    /*tipografia*/
+    --fonteMarca: 'idroid', cursive;
+    --fonteDestaque: 'Bebas Neue', cursive;
+    --fonteTexto: sans-serif;
+
+    --tamanhoTexto: 16px;
+    --tamanhoMiudo: 12px;
+}
+
+/*redefinir*/
+*{
+    padding: 0; margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--lightClaro);
+    color: var(--darkEscuro);
+    font-family: var(--fonteTexto);
+    font-size: var(--tamanhoTexto);
+}
+
+/*seletor de texto*/
+::selection{
+    background-color: var(--corPrimaria);
+    color: var(--darkEscuro);
+}
+
+/*barra de rolagem*/
+::-webkit-scrollbar{
+    width: 8px; height: 0;
+}
+
+::-webkit-scrollbar-track,::-webkit-scrollbar-thumb{
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--corPrimaria);
+}
+
+/*títulos*/
+h2,h3,h4,h5,h6{
+    color: var(--corSecundaira);
+    padding: 16px 0;
+    font-weight: 100;
+}
+
+h1{
+    font-family: var(--fonteMarca);
+    font-weight: 100;
+}
+
+h2,h3,h4{
+    font-family: var(--fonteDestaque);
+}
+
+h4{
+    background-color: var(--corPrimaria);
+    color: var(--darkEscuro);
+    padding: 1% 4%;
+    border-radius: 8px 8px 0 0;
+}
+
+/*marca-texto*/
+strong{
+    color: var(--corSecundaira);
+}
+
+p{
+    text-indent: 4rem;
+    padding: 2% 0;
+}
+
+a{
+    color: var(--corPrimaria);
+    font-weight: bold;
+}
+
+/*botões*/
+
+/*entradas*/

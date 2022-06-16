@@ -1,0 +1,179 @@
+*{
+    margin: 0; padding: 0;
+    text-decoration: none;
+}
+
+/*ícones*/
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css');
+
+/*fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+:root{
+    /*cores*/
+    --corPrimaria:rgba(63,94,251,0.8);
+    --corSecundaria:rgba(252,70,107,0.6);
+    --corTexto:rgba(81,81,81,0.75);
+    
+    --corClara:rgba(255,255,255,1);
+    --corEscura:rgba(0,0,0,0.8);
+
+    --fundo:rgba(238,238,238,0.8);
+    --fundoTransparente: rgba(255,255,255,0.5);
+
+    --caixa:rgba(255,255,255,1);
+    --borda:#ddd;
+
+    --sombra:rgba(54,54,54,0.03);
+
+    --gradientePrimaria:rgba(63,94,251,0.4);
+    --gradienteSecundaria:rgba(252,70,107,0.6);
+
+    /*fontes*/
+    --fonteTexto:'Nunito', sans-serif;
+
+    --tamanhoTitulo: 24px;
+    
+    --tamanhoT5: 16px;
+    --tamanhoT5-1: 14px;
+    
+    --tamanhoTextoG: 12px;
+    --tamanhoTexto: 1.25rem;
+    --tamanhoTextoS: 10px;
+    
+    --tamanhoMinG: 8px;
+    --tamanhoMinM: 4px;
+    --tamanhoMinS: 2px;
+}
+
+::-webkit-scrollbar{
+    width: 7px;
+    height: 0;
+}
+
+::-webkit-scrollbar-track,::-webkit-scrollbar-thumb{
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    /*background: linear-gradient(180deg, rgba(63,94,251,0.8) 0%, rgba(252,70,107,0.6) 100%);*/
+	background: rgba(81,81,81,0.25);
+}
+
+body{
+    align-items: center;
+    background: var(--fundo); 
+    color: var(--corTexto);
+    font-family: 'Nunito', sans-serif;
+    font-size: var(--tamanhoTexto);
+}
+
+/*animações*****************************************/
+@keyframes xGradiente {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+    }
+}
+
+/*marcação de texto*****************************************/
+h3,h4,h5,h6{
+    font-weight: 100;
+}
+
+h1{
+    background-image: linear-gradient(-45deg, rgba(252,70,107,0.6), rgba(63,94,251,0.6));
+	background-size: 400% 400%;
+	animation: xGradiente 15s ease infinite;
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    color: var(--corPrimaria);
+    font-size: 2.25rem;
+    margin: var(--tamanhoTexto);
+    padding: 0.25rem;
+}
+
+h2{
+    color: var(--corPrimaria);
+    font-size: 2rem;
+    margin: var(--tamanhoTexto);
+    padding: 0.25rem;
+}
+
+a{
+    color: var(--corTexto);
+}
+
+a:hover{
+    background-image: linear-gradient(-45deg, rgba(252,70,107,0.6), rgba(63,94,251,0.6));
+	background-size: 400% 400%;
+	animation: xGradiente 15s ease infinite;
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+
+
+p{
+    padding: 0.25rem;
+}
+
+span{
+    /*background: linear-gradient(90deg, rgba(63,94,251,0.6) 0%, rgba(252,70,107,0.4) 100%);*/
+    background: rgba(63,94,251,0.6);
+    color: var(--caixa);
+    border-radius: 5px 0 5px 0;
+    padding: 0.125rem;
+}
+
+/*input*/
+input,select{
+    accent-color: SlateBlue;
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+    padding: 5px;
+    margin: 0 0 0 8px;
+    border:1px solid rgba(15,15,15,0.1);
+    border-radius:  5px 0 5px 0;
+    box-shadow: -1px -1px 5px var(--luz), 1px 1px 3px var(--sombra);
+}
+
+input[type=button]{
+    width:100%;
+    background: transparent;
+    color: var(--corPrimaria);
+    border:1px solid rgba(63,94,251,0.4);
+    margin-top: 16px;
+    font-family: var(--fonteNormal);
+}
+
+input[type=button]:hover{
+    background: linear-gradient(-45deg, rgba(252,70,107,0.6), rgba(63,94,251,0.6));
+	background-size: 400% 400%;
+	animation: xGradiente 15s ease infinite;
+    color: var(--caixa);
+    border:1px solid var(--caixa);
+}
+
+/*botões*/
+button{
+    background: transparent;
+    color: var(--corPrimaria);
+    font-family: var(--fonteNormal);
+    font-size: 16px;
+    border:1px solid rgba(63,94,251,0.4);
+    border-radius: 50%;
+    padding: 16px 24px;
+    margin: 40px 40px 0 0;
+}
