@@ -17,7 +17,7 @@
 </details>
 <details>
   <summary>📰 Módulo 03 - Cordel</summary><br>
-  <a target="_blank" href="/">🌐 Website</a> <a target="_blank" href="/">😸 Código</a><br><br>
+  <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/html-css/modulo03-cordel/index.html">🌐 Website</a> <a target="_blank" href="https://github.com/raysantori/desafio-cursoemvideo/tree/main/html-css/modulo03-cordel">😸 Código</a><br><br>
 </details>
 
 <br>
