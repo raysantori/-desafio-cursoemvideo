@@ -1,0 +1,112 @@
+/*referência*/
+/*ícones*/
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css');
+
+/*tipografia*/
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+/*id visual*/
+:root{
+    /*paleta de cores*/
+    --corPrimaria:#3ddc84;
+    --corSecundaira:#0f3f75;
+
+    --lightTotal:#ffffff;
+    --lightClaro:#ececec;
+    --lightMedio:#b9b9b9;
+    --lightEscuro:#7c7c7c;
+
+    --darkClaro:#323232;
+    --darkMedio:#202020;
+    --darkEscuro:#181818;
+    --darkTotal:#000000;
+
+    /*tipografia*/
+    --fonteDestaque: 'Passion One', cursive;
+    --fonteTexto: 'Sriracha', cursive;
+
+    --tamanhoTexto: 16px;
+    --tamanhoMiudo: 12px;
+
+    --borderRadius:4px;
+}
+
+/*redefinir*/
+*{
+    padding: 0; margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--lightClaro);
+    color: var(--darkEscuro);
+    font-family: var(--fonteTexto);
+    font-size: var(--tamanhoTexto);
+}
+
+/*seletor de texto*/
+::selection{
+    background-color: var(--darkEscuro);
+    color: var(--lightClaro);
+}
+
+/*barra de rolagem*/
+::-webkit-scrollbar{
+    width: 8px; height: 0;
+}
+
+::-webkit-scrollbar-track,::-webkit-scrollbar-thumb{
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--lightMedio);
+}
+
+/*títulos*/
+h2,h3,h4,h5,h6{
+    padding: 16px 0;
+    font-weight: 100;
+}
+
+h1{
+    font-size: 5vh;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+h1,h2,h3,h4{
+    font-family: var(--fonteDestaque);
+}
+
+h4{
+    padding: 1% 4%;
+    border-radius: 8px 8px 0 0;
+}
+
+/*marca-texto*/
+a{
+    color: var(--lightClaro);
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+p{
+    font-size: 2.5vh;
+}
+
+/*botões*/
+
+/*entradas*/
