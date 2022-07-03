@@ -1,0 +1,86 @@
+@import url(style.css);
+
+/*referência*/
+/*ícones*/
+
+/*tipografia*/
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css');
+
+/*redefinir*/
+*{
+    padding: 0; margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/*id visual*/
+:root{
+    /*paleta de cores*/
+    --cor-primaria:#3ddc84;
+    --cor-secundaira:#0f3f75;
+    --cor-fundo: #000;
+    --cor-sobreposta:#5454;
+    --cor-destaque:#ffffff;
+    --cor-conteudo-destaque:#ececec;
+    --cor-conteudo:#b9b9b9;
+
+    /*tipografia*/
+    --fonte-destaque: ;
+    --fonte-conteudo: ;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    color: var(--cor-conteudo);
+    font-family: var(--fonte-conteudo);
+    font-size: 16px;
+}
+
+/*seletor de texto*/
+::selection{
+    background-color: var(--cor-primaria);
+}
+
+/*barra de rolagem*/
+::-webkit-scrollbar{
+    width: 8px; height: 0;
+}
+
+::-webkit-scrollbar-track,::-webkit-scrollbar-thumb{
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--cor-primaria);
+}
+
+/*marca-texto*/
+a{
+    color: var(--cor-conteudo);
+}
+
+/*títulos*/
+
+/*botões*/
+
+/*entradas*/
+
+/*rodapé*/
+footer{
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+#copyright{
+    text-align: center;
+    text-transform: uppercase;
+}

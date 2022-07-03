@@ -1,0 +1,51 @@
+.absolute-center{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.flex-center-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fundo{
+    height: 100vh;
+    background-image: url('../midia/fundo-madeira.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.iphone{
+    height: 75vh;
+}
+
+.tela,iframe{
+    width: 205px; height: 365px;
+    border-radius: 4px;
+}
+
+.tela ul{
+    background-color: var(--cor-sobreposta);
+    list-style: none;
+    padding: .5rem;
+    transform: translateY(312px);
+    border-radius: 4px;
+}
+
+.tela ul li{
+    display: inline;
+    padding: .7rem;
+}
+
+.tela ul li:hover{
+    transform: translateY(-4px);
+    transition: all .25s;
+}
+
+.tela .fi{
+    font-size: 1.75rem;
+    border-radius: 50%;
+}
