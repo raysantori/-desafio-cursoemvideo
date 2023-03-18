@@ -30,7 +30,9 @@ Clone o desafio no terminal:
 
   ```
   git clone https://github.com/raysantori/desafio-cursoemvideo.git
-  ```
+  ``` 
+
+<br>
 
 ## 🤝 Criadores
 
