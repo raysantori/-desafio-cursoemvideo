@@ -16,6 +16,23 @@
 
 <br>
 
+### HTML & CSS
+
+<li> <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/public/assets/pages/android.html"><b>Módulo 02: Android</b> </a>
+<li> <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/public/assets/pages/cordel.html"><b>Módulo 03: Cordel</b> </a>
+
+<br>
+
+### JavaScript
+
+<li> <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/public/assets/pages/restScreen.html"><b>Tela de descanso</b> </a>
+<li> <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/public/assets/pages/ageGroup.html"><b>Faixa etária</b> </a>
+<li> <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/public/assets/pages/counter.html"><b>Contador</b> </a>
+<li> <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/public/assets/pages/multiplicationTable.html"><b>Tabuada</b> </a>
+<li> <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/public/assets/pages/numberAnalyzer.html"><b>Analisador de números</b> </a>
+
+<br>
+
 ## 💾 Instalação
 
 Clone o desafio no terminal:
