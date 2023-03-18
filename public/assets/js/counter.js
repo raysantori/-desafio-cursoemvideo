@@ -32,9 +32,3 @@ function contar(){
         res.innerHTML+=`\u{1f3c1}`
     }
 }
-
-//rodape
-var rodape = window.document.getElementById('rodape')
-var agora = new Date()
-var ano = agora.getFullYear()
-rodape.innerHTML = `&copy; ${ano} raysantori`

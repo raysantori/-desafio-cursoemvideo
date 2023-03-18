@@ -1,40 +1,32 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="../arquivos/css/estilo.css">
+    
+    <link rel="stylesheet" href="../css/estilo.css">
 
     <link rel="shortcut icon" href="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8bf92cb5-6abc-4394-8ee9-32435d682dd3/dc4a4bz-1c9436cd-d3ef-4f5c-af4e-7a27b7c5fd2d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzhiZjkyY2I1LTZhYmMtNDM5NC04ZWU5LTMyNDM1ZDY4MmRkM1wvZGM0YTRiei0xYzk0MzZjZC1kM2VmLTRmNWMtYWY0ZS03YTI3YjdjNWZkMmQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.nKQeEe0AxbLn-84MLDY4-8oTPFZw3nfPguujxQXcsj4" type="image/x-icon">
 
-    <title>raysantori | Verificador de faixa etária</title>
+    <title>raysantori - Analisador de números</title>
 </head>
 <body>
     <section>
-        <h2>Verificador de faixa etária</h2>
-        <div id="dados"><div id="um"></div>
-            <p><span>Ano de nascimento:</span>
-                <input type="number" name="txtano" id="txtano" min="0">
-            </p>
-            <p><span>Gênero:</span>
-                <input type="radio" name="radsex" id="fem" checked>
-                <label for="fem">Feminino</label>
-
-                <input type="radio" name="radsex" id="mas">
-                <label for="mas">Masculino</label>
-            </p>
-            <p>
-                <input type="button" value="Verificar" onclick="verificar()">
-            </p>
-        </div> </div>
+        <h2>Analisador de números</h2>
+        <div id="dados">
+            <p><span>Número (1 a 100):</span> 
+                <input type="number" name="fnum" id="fnum" style="width: 32%;">
+                <input type="button" style="width: 25%;" value="Adicionar" onclick="adicionar()"></p>
+            <select name="flista" id="flista" size="6"style="width: 100%;"></select>
+            <input type="button" value="Finalizar" onclick="finalizar()"></p>
+        </div>
         <div id="res">
-            <p>Preencha os dados acima para ver o resultado.</p>
+            <p style="font-size: 12px;">Preencha os dados acima para ver o resultado.</p>
         </div>
     </section>
     <footer id="rodape"></footer>
 
-    <script src="../arquivos/js/faixa-etaria.js"></script>
+    <script src="../js/numberAnalyzer.js"></script>
 </body>
 </html>

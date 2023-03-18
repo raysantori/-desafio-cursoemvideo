@@ -12,7 +12,7 @@
 
 .fundo{
     height: 100vh;
-    background-image: url('../midia/fundo-madeira.jpg');
+    background-image: url('../images/background-wood.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

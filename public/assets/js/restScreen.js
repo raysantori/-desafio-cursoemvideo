@@ -1,4 +1,3 @@
-//main
 function carregar(){
     var agora = new Date()
 
@@ -29,10 +28,3 @@ function carregar(){
         document.body.style.color = '#b1b0bc'
     }
 }
-
-
-//rodape
-var rodape = window.document.getElementById('rodape')
-var agora = new Date()
-var ano = agora.getFullYear()
-rodape.innerHTML = `&copy; ${ano} raysantori`

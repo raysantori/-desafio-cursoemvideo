@@ -60,9 +60,3 @@ function finalizar(){
         res.innerHTML+=`<p>A média dos valores é ${media}.</p>`
     }
 }
-
-//rodape
-var rodape = window.document.getElementById('rodape')
-var agora = new Date()
-var ano = agora.getFullYear()
-rodape.innerHTML = `&copy; ${ano} raysantori`
