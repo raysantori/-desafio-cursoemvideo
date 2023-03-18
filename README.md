@@ -14,9 +14,9 @@
   <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"> <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
 </div>
 
-<br>
-
 ## 🧩 Solução
+
+<br>
 
 | HTML & CSS | JavaScript |
 | :----: | :----: | 
@@ -37,6 +37,8 @@ Clone o desafio no terminal:
 ## 🤝 Criadores
 
 Conheça os criadores desse desafio:
+
+<br>
 
 | Autora | Professor |
 | :----: | :----: | 
