@@ -16,6 +16,8 @@
 
 <br>
 
+## 🧩 Solução
+
 | HTML & CSS | JavaScript |
 | :----: | :----: | 
 | <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/public/assets/pages/android.html"><b>Módulo 02: Android</b> </a><br> <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/public/assets/pages/cordel.html"><b>Módulo 03: Cordel</b> </a><br><br><br><br> | <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/public/assets/pages/restScreen.html"><b>Tela de descanso</b> </a><br> <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/public/assets/pages/ageGroup.html"><b>Faixa etária</b> </a><br> <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/public/assets/pages/counter.html"><b>Contador</b> </a><br> <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/public/assets/pages/multiplicationTable.html"><b>Tabuada</b> </a><br> <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/public/assets/pages/numberAnalyzer.html"><b>Analisador de números</b> </a> | 
@@ -32,7 +34,7 @@ Clone o desafio no terminal:
 
 ## 🤝 Criadores
 
-Conheça os criadores desse desafio.
+Conheça os criadores desse desafio:
 
 | Autora | Professor |
 | :----: | :----: | 
