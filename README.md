@@ -1,11 +1,9 @@
 <div align="center">
   <img width="125" src="https://github.com/gustavoguanabara/html-css/blob/master/imagens/mascote.png?raw=true">
   
-  ### DESAFIO CURSO EM VÍDEO
+  ### CURSO EM VÍDEO
   
-  <p>
-    <!--Descrição. -->
-  </p>
+  <p>Desenvolvendo minhas habilidades em programação por meio <br> da resolução de exercícios e aprendendo continuamente novas técnicas.</p>
   
    <!--##### Explore os documentos</a></p>
   
@@ -14,22 +12,31 @@
   <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"> <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
 </div>
 
-## 🧩 Solução
+## 🧩 Exercícios
 
 <br>
 
-| HTML & CSS | JavaScript |
-| :----: | :----: | 
-| <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/public/assets/pages/android.html"><b>Módulo 02: Android</b> </a><br> <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/public/assets/pages/cordel.html"><b>Módulo 03: Cordel</b> </a><br><br><br><br> | <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/public/assets/pages/restScreen.html"><b>Tela de descanso</b> </a><br> <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/public/assets/pages/ageGroup.html"><b>Faixa etária</b> </a><br> <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/public/assets/pages/counter.html"><b>Contador</b> </a><br> <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/public/assets/pages/multiplicationTable.html"><b>Tabuada</b> </a><br> <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/public/assets/pages/numberAnalyzer.html"><b>Analisador de números</b> </a> | 
+| HTML5 & CSS3 | Exercício |
+| :---- | :---- | 
+| Módulo 02 | <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/public/assets/pages/android.html">Android</a> |
+| Módulo 03 | <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/public/assets/pages/cordel.html">Cordel</a> |
+
+| JavaScript | Exercício |
+| :---- | :---- | 
+| &nbsp; | <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/public/assets/pages/restScreen.html">Tela de descanso</a> |
+| &nbsp; | <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/public/assets/pages/ageGroup.html">Faixa etária</a> |
+| &nbsp; | <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/public/assets/pages/counter.html">Contador</a> |
+| &nbsp; | <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/public/assets/pages/multiplicationTable.html">Tabuada</a> |
+| &nbsp; | <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/public/assets/pages/numberAnalyzer.html">Analisador de números</a> |
 
 <br>
 
 ## 💾 Instalação
 
-Clone o desafio no terminal:
+Clone o projeto no terminal:
 
   ```
-  git clone https://github.com/raysantori/desafio-cursoemvideo.git
+  git clone https://github.com/raysantori/cursoemvideo.git
   ``` 
 
 <br>
@@ -47,6 +54,6 @@ Conheça os criadores desse desafio:
 
 <div align="right"><a target="_blank" href="https://github.com/raysantori/desafio-cursoemvideo#desafio-curso-em-v%C3%ADdeo">🔝 Voltar ao topo</a></div>
 
-<strong>Mostre seu apoio!</strong> Dê uma ⭐ se você gostou desse desafio.
+<strong>Mostre apoio!</strong> ⭐ Se gostou do desafio.
 
-###### © 2023 RAYSANTORI
+###### © Copyright © 2023 raysantori.com. Todos os direitos reservados.
