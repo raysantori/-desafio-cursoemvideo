@@ -56,4 +56,4 @@ Conheça os criadores desse desafio:
 
 <strong>Mostre apoio!</strong> ⭐ Se gostou do desafio.
 
-###### © Copyright © 2023 raysantori.com. Todos os direitos reservados.
+###### Copyright © 2023 raysantori.com. Todos os direitos reservados.
