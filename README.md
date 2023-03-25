@@ -18,16 +18,16 @@
 
 | HTML5 & CSS3 | Exercício |
 | :---- | :---- | 
-| Módulo 02 | <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/public/assets/pages/android.html">Android</a> |
-| Módulo 03 | <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/public/assets/pages/cordel.html">Cordel</a> |
+| Módulo 02 | <a target="_blank" href="https://raysantori.github.io/cursoemvideo/public/assets/pages/android.html">Android</a> |
+| Módulo 03 | <a target="_blank" href="https://raysantori.github.io/cursoemvideo/public/assets/pages/cordel.html">Cordel</a> |
 
 | JavaScript | Exercício |
 | :---- | :---- | 
-| &nbsp; | <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/public/assets/pages/restScreen.html">Tela de descanso</a> |
-| &nbsp; | <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/public/assets/pages/ageGroup.html">Faixa etária</a> |
-| &nbsp; | <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/public/assets/pages/counter.html">Contador</a> |
-| &nbsp; | <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/public/assets/pages/multiplicationTable.html">Tabuada</a> |
-| &nbsp; | <a target="_blank" href="https://raysantori.github.io/desafio-cursoemvideo/public/assets/pages/numberAnalyzer.html">Analisador de números</a> |
+| &nbsp; | <a target="_blank" href="https://raysantori.github.io/cursoemvideo/public/assets/pages/restScreen.html">Tela de descanso</a> |
+| &nbsp; | <a target="_blank" href="https://raysantori.github.io/cursoemvideo/public/assets/pages/ageGroup.html">Faixa etária</a> |
+| &nbsp; | <a target="_blank" href="https://raysantori.github.io/cursoemvideo/public/assets/pages/counter.html">Contador</a> |
+| &nbsp; | <a target="_blank" href="https://raysantori.github.io/cursoemvideo/public/assets/pages/multiplicationTable.html">Tabuada</a> |
+| &nbsp; | <a target="_blank" href="https://raysantori.github.io/cursoemvideo/public/assets/pages/numberAnalyzer.html">Analisador de números</a> |
 
 <br>
 
