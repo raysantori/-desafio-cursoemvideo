@@ -1,0 +1,18 @@
+whatIsThis = input('Which primitive type is this? ')
+primitiveType = type(whatIsThis)
+
+print(f'\n{whatIsThis} is a {primitiveType}.\n')
+
+print(f'Is {whatIsThis} a alphanumeric? {whatIsThis.isalnum()}')
+print(f'Is {whatIsThis} a alpha? {whatIsThis.isalpha()}')
+print(f'Is {whatIsThis} a ASCII? {whatIsThis.isascii()}')
+print(f'Is {whatIsThis} a digit? {whatIsThis.isdigit()}')
+print(f'Is {whatIsThis} a lower? {whatIsThis.islower()}')
+print(f'Is {whatIsThis} a decimal? {whatIsThis.isdecimal()}')
+print(f'Is {whatIsThis} a identifier? {whatIsThis.isidentifier()}')
+print(f'Is {whatIsThis} a numeric? {whatIsThis.isnumeric()}')
+print(f'Is {whatIsThis} a printable? {whatIsThis.isprintable()}')
+print(f'Is {whatIsThis} a space? {whatIsThis.isspace()}')
+print(f'Is {whatIsThis} a title? {whatIsThis.istitle()}')
+print(f'Is {whatIsThis} a upper? {whatIsThis.isupper()}')
+print(f'Is {whatIsThis} a init subclass? {whatIsThis.__init_subclass__()}')
