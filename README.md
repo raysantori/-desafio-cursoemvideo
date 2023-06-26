@@ -5,38 +5,8 @@
   
   <p>Desenvolvendo minhas habilidades em programação por meio <br> da resolução de exercícios e aprendendo continuamente novas técnicas.</p>
   
-  <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"> <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"><img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-plain.svg">
+  <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"> <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-plain.svg">
 </div>
-
-## 🧩 Exercícios
-
-<br>
-
-| LINGUAGEM OU<br> TECNOLOGIA | EXERCÍCIO |
-| :---- | :---- | 
-| HTML & CSS | <a target="_blank" href="/">Android</a> |
-| HTML & CSS | <a target="_blank" href="/">Cordel</a> |
-| JavaScript | <a target="_blank" href="/">Tela de descanso</a> |
-| JavaScript | <a target="_blank" href="/">Faixa etária</a> |
-| JavaScript | <a target="_blank" href="/">Contador</a> |
-| JavaScript | <a target="_blank" href="/">Tabuada</a> |
-| JavaScript | <a target="_blank" href="/">Analisador de números</a> |
-| Python | <a target="_blank" href="/">Hello, World</a> |
-| Python | <a target="_blank" href="/">Somando dois números</a> |
-| Python | <a target="_blank" href="/">Tabuada</a> |
-| Python | <a target="_blank" href="/">Tipos primitivos</a> |
-| Python | <a target="_blank" href="/">Antecessor e sucessor</a> |
-| Python | <a target="_blank" href="/">Dobro, Triplo e raiz quadrada</a> |
-| Python | <a target="_blank" href="/">Conversor de unidades</a> |
-| Python | <a target="_blank" href="/">Conversor de moedas</a> |
-| Python | <a target="_blank" href="/">Média da prova</a> |
-| Python | <a target="_blank" href="/">Apresentação</a> |
-| Python | <a target="_blank" href="/">Aumento de salário</a> |
-| Python | <a target="_blank" href="/">Desconto de produto</a> |
-| Python | <a target="_blank" href="/">Data de nascimento</a> |
-| Python | <a target="_blank" href="/">Área e proporção</a> |
-
-<br>
 
 ## 🤝 Criadores
 

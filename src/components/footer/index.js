@@ -1,4 +1,4 @@
-var footer = window.document.querySelector('.footer')
-var currentDate = new Date()
-var currentYear = currentDate.getFullYear()
-footer.innerHTML = `&copy; ${currentYear} raysantori`
+const footer = document.createElement('footer');
+const getFullYear = new Date().getFullYear();
+footer.innerHTML = `&copy; ${getFullYear} raysantori`;
+document.body.appendChild(footer);
